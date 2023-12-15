@@ -13,6 +13,7 @@ public class PasswordGenerator {
     public static void main(String[] args) {
         int passwordLength = 10;
         System.out.println(generatePassword(passwordLength));
+        System.out.println("This is your Password");
     }
 
     public static String generatePassword(int length) {
